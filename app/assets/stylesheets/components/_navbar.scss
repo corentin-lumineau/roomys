@@ -1,0 +1,30 @@
+.navbar-landing {
+  top: 0px;
+  position: sticky;
+  height: 108px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 6px 12px rgba(67, 90, 121, 0.50);
+}
+
+.items a{
+ text-decoration: none;
+ color: $blue-sentinel;
+ font-family: 'Space Grotesk';
+}
+
+.items p{
+  text-decoration: none;
+  color: $blue-sentinel;
+  font-family: 'Space Grotesk';
+ }
+
+.line {
+  height: 5px;
+  background-color: $blue-sentinel;
+}
+

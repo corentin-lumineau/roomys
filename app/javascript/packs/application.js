@@ -3,9 +3,25 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("channels")
+
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+
+
+// External import
+import 'bootstrap';
+
+//Internal import
+import { showLandingModals } from '../controllers/landing';
+
+document.addEventListener('turbolinks:load', () => {
+  showLandingModals();
+});
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

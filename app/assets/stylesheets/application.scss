@@ -1,0 +1,17 @@
+//External libraries
+@import 'bootstrap';
+
+//fonts and colors
+@import 'config/fonts';
+@import 'config/colors';
+
+//CSS partials
+@import "pages/index";
+@import "components/index";
+
+//container
+
+.container-l {
+    width: 86%;
+    margin: 0 auto;
+  }
